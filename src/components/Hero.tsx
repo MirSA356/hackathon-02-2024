@@ -19,7 +19,7 @@ export default function Hero() {
       <p className="text-xs">International Brand</p>
       </div>
       <div>
-      <h1 className="text-2xl font-bold">2,000++</h1>
+      <h1 className="text-2xl font-bold">2,000+</h1>
       <p className="text-xs">High-Quality Products</p>
       </div>
       <div>
