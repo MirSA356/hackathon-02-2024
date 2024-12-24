@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Annouce from "@/components/annoucement";
+import Annouce from "@/components/Annoucement";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
