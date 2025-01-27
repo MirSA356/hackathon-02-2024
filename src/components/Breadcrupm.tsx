@@ -26,7 +26,7 @@ export function BreadcrumbCollapsed() {
         <BreadcrumbSeparator />
         <BreadcrumbItem>
           <BreadcrumbLink asChild>
-            <Link href="/docs/components">Shop</Link>
+            <Link href="/casual">Shop</Link>
           </BreadcrumbLink>
         </BreadcrumbItem>
         <BreadcrumbSeparator />

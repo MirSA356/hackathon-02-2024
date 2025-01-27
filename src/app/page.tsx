@@ -1,26 +1,27 @@
 
-import FontsShowcase from "@/components/Fonts";
 import Hero from "@/components/Hero";
-import NewArivel from "@/components/arrivals";
-import BestSelling from "@/components/Selling";
+import FontShowcase from "@/components/Retangle";
+import NewArivel from "../components/arrivals";
 import Dress from "@/components/dress";
 import CustomerCarousel from "@/components/Customer";
-import Products from "./products/page";
-import Top_sell from "./products/sels";
+import Products from "./product/page";
+import Top_sell from "./product/sell";
+import Product from "./product/page";
 
 
 export default function Home() {
   return (
-    <div>
+   <div>
    
-   <Hero/>
-   <FontsShowcase/>
-   {/* <NewArivel/> 
-   <BestSelling/> */}
-   <Products/>
-   <Top_sell/>
-   <Dress/>
-   <CustomerCarousel/>
-   </div>
+    <Hero/>
+    <FontShowcase/>
+    {/* <NewArivel/>
+    <BestSelling/> */}
+    <Product/>
+    <Top_sell/>
+    <Dress/>
+    <CustomerCarousel/>
+    
+   </div> 
   );
 }

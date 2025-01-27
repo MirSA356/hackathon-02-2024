@@ -10,7 +10,7 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet"
 import Link from "next/link";
-import { NavigationMenuDemo } from "./NavigationMenu";
+import { NavigationMenuDemo } from "./navigationMenu";
 
 const SHEET_SIDES = ["left"] as const
 

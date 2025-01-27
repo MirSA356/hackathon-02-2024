@@ -14,28 +14,28 @@ interface Iproducts{
 let product:Iproducts[] = [
     {
      title:"T-SHIRT WITH TAPE DETAILS",
-     id:1,
+     id:9,
      price:"$120",
-     img_url:"/product1.png"
+     img_url:"/images/might1.png"
     },
     {
      title:"SKINNY FIT JEANS",
-     id:2,
+     id:10,
      price:"$120",
-     img_url:"/product2.png",
+     img_url:"/images/might2.png",
      old_price:"$200"
     },
     {
      title:"CHECKERED SHIRT",
-     id:3,
+     id:11,
      price:"$120",
-     img_url:"/product3.png"
+     img_url:"/images/might3.png"
     },
     {
      title:"SLEEVE STRIPED T-SHIRT",
-     id:4,
+     id:12,
      price:"$120",
-     img_url:"/product4.png",
+     img_url:"/images/might4.png",
      old_price:"$200"
 
     }

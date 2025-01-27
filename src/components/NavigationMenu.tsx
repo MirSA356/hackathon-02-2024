@@ -4,6 +4,7 @@ import * as React from "react"
 import Link from "next/link"
 
 import { cn } from "@/lib/utils"
+// import { Icons } from "@/components/icons"
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -13,47 +14,47 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu"
+import { RiArrowDropDownLine } from "react-icons/ri"
 
 const components: { title: string; href: string; description: string }[] = [
+ 
   {
-    title: "casual",
+    title: "Men's Clothes",
     href: "/casual",
     description:
-      "Displays an indicator showing the completion progress of a task, typically displayed as a progress bar.",
+      "In attractive and spectacular colors and designs.",
   },
   {
-    title: "Scroll-area",
-    href: "/docs/primitives/scroll-area",
-    description: "Visually or semantically separates content.",
+    title: "Women's Clothes",
+    href: "/casual",
+    description: "Ladies, your style and tastes are important to us",
   },
   {
-    title: "Tabs",
-    href: "/docs/primitives/tabs",
+    title: "Kids Clothes",
+    href: "/casual",
     description:
-      "A set of layered sections of content—known as tab panels—that are displayed one at a time.",
+      "For all ages, with happy and beautiful colors",
   },
   {
-    title: "Tooltip",
-    href: "/docs/primitives/tooltip",
-    description:
-      "A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.",
+    title: "Bags And Shoes",
+    href: "/casual",
+    description:"Suitable for men, women and all tastes and styles",
   },
 ]
 
 export function NavigationMenuDemo() {
   return (
     <NavigationMenu>
-      <NavigationMenuList>
-        
+      <NavigationMenuList>         
         <NavigationMenuItem>
-          <NavigationMenuTrigger
-            className="text-md">Shop
-            </NavigationMenuTrigger>
+          <NavigationMenuTrigger className="text-md ">
+            Shop 
+          </NavigationMenuTrigger>
           <NavigationMenuContent>
-            <ul className="grid sm:w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
+            <ul className="grid  sm:w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
               {components.map((component,index) => (
               <Link href={component.href} key={index}>
-              <ListItem
+                   <ListItem
                   key={component.title}
                   title={component.title}
                 >
@@ -65,7 +66,7 @@ export function NavigationMenuDemo() {
           </NavigationMenuContent>
         </NavigationMenuItem>
         
-         </NavigationMenuList>
+      </NavigationMenuList>
     </NavigationMenu>
   )
 }

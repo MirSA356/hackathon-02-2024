@@ -73,7 +73,7 @@ export default function CustomerTestimonials() {
             </h1>
            <div className="flex items-center space-x-2 mt-4 md:mr-4">
               <div className="hidden md:block">              
-              <Button className="rounded-[16px]">Latest <RiArrowDropDownLine className="ml-2 text-xl"/></Button>
+              <Button variant={"outline"} className="rounded-[16px]">Latest <RiArrowDropDownLine className="ml-2 text-xl"/></Button>
               </div>
               <Button className="rounded-[16px]">Write a Review</Button>
 
@@ -108,7 +108,7 @@ export default function CustomerTestimonials() {
         </div>
       </div>
       <div className=" flex justify-center items-center mt-6">
-      <Button>Load More Reviews</Button>
+      <Button variant={"outline"}>Load More Reviews</Button>
       </div>
     </main>
   );

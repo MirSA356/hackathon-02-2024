@@ -11,7 +11,7 @@ export default function Stayudpate(){
                 </div>
                 {/* right */}
                 <div className="space-y-4 mt-2">
-                <div className="w-[300px]  flex justify-start items-center bg-[#F0F0F0] md:w-[300px] h-[35px] pl-2 md:ml-0 hover:border-none rounded-full"> <AiOutlineMail className="text-xl"/> <input   placeholder={`Enter your email address`}  className="bg-[#F0F0F0] w-[90%] rounded-full h-full  ml-2"/></div>
+                <div className="  flex justify-start items-center bg-[#F0F0F0] md:w-[300px] h-[35px] pl-2 md:ml-0 hover:border-none rounded-full"> <AiOutlineMail className="text-xl"/> <input   placeholder={`Enter your email address`}  className="bg-[#F0F0F0] w-[90%] rounded-full h-full  ml-2"/></div>
                 <button className="w-full  text-sm border bg-white py-2 px-10 rounded-[20px]" >Subscribe to Newsletter</button>
 
                 </div>
